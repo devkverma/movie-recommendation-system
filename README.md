@@ -109,9 +109,4 @@ df = pd.read_csv('filename.csv')
 print(df.head())
 ```
 
-### Instructions for Including This in Your README
-1. Open your existing `README.md` file in a text editor.
-2. Copy the above section.
-3. Paste it into your `README.md` file where appropriate (you might place it under a section titled **Getting the Dataset** or similar).
-4. Save the changes to your README file.
 
