@@ -9,12 +9,12 @@ API_KEY = "2b828244e61525fc7ea34cd70e412b44"
 # Cache data loading to avoid reloading on each rerun
 @st.cache_resource
 def load_data():
-    with open("movies.tkl", "rb") as file:
+    with open("movies.pkl", "rb") as file:
         movies_dict = pickle.load(file)
 
     movies = pd.DataFrame(movies_dict)
 
-    with open("sm.tkl", "rb") as file:
+    with open("sm.pkl", "rb") as file:
         similarities = pickle.load(file)
 
     return movies, similarities
