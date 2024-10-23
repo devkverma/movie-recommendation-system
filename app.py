@@ -2,9 +2,9 @@ import streamlit as st
 import pandas as pd
 import requests
 import pickle
+from api import *   #api key
 from concurrent.futures import ThreadPoolExecutor
 
-API_KEY = "2b828244e61525fc7ea34cd70e412b44"
 
 # Cache data loading to avoid reloading on each rerun
 @st.cache_resource
