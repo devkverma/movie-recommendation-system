@@ -37,7 +37,7 @@ You can install these packages using pip:
 pip install numpy pandas nltk scikit-learn
 ```
 
-After installing, run main.py file to get `movies.pkl` and `sm.pkl`.
+After installing, run main.ipynb file to get `movies.pkl` and `sm.pkl`.
 Then, open command prompt and run
 
 ```bash
